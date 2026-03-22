@@ -149,7 +149,12 @@ claude mcp list
 
 ## Install on Gemini CLI
 
-1. Open (or create) your Gemini CLI settings file at `~/.gemini/settings.json`
+1. Open (or create) your Gemini CLI settings file:
+
+   | OS | Config path |
+   |----|-------------|
+   | Windows | `C:\Users\<your-username>\.gemini\settings.json` |
+   | macOS / Linux | `~/.gemini/settings.json` |
 
 2. Add the MCP server config:
 
