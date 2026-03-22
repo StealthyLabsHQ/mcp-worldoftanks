@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "wot": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "WG_APPLICATION_ID": "${WG_APPLICATION_ID}",
+        "WG_ACCESS_TOKEN": "${WG_ACCESS_TOKEN}",
+        "WG_ACCOUNT_ID": "${WG_ACCOUNT_ID}",
+        "WG_REGION": "${WG_REGION}"
+      }
+    }
+  }
+}
