@@ -1,4 +1,4 @@
-# wot-mcp-server
+# mcp-worldoftanks
 
 An MCP (Model Context Protocol) server that exposes **World of Tanks** player data as tools for **Claude Code**, **Claude Desktop**, and **Gemini CLI**.
 
