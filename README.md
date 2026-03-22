@@ -121,7 +121,7 @@ claude mcp list
 
    ```json
    "mcpServers": {
-     "wot": {
+     "Analyzer WoT Stats": {
        "command": "node",
        "args": ["C:/path/to/mcp-worldoftanks/dist/index.js"],
        "env": {
@@ -161,7 +161,7 @@ claude mcp list
    ```json
    {
      "mcpServers": {
-       "wot": {
+       "wot-stats": {
          "command": "node",
          "args": ["/absolute/path/to/mcp-worldoftanks/dist/index.js"],
          "env": {
