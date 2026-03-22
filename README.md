@@ -22,7 +22,17 @@ Ask your AI assistant about your WoT account in natural language:
 - **Node.js 20+**
 - A **Wargaming Application ID** — get one at [developers.wargaming.net](https://developers.wargaming.net)
 
-## Setup (required for all clients)
+## Quick Setup (Windows)
+
+```bash
+git clone https://github.com/StealthyLabsHQ/mcp-worldoftanks.git
+cd mcp-worldoftanks
+setup.bat
+```
+
+Double-click `setup.bat` — it will ask for your Application ID, install dependencies, open the Wargaming login page, and build everything automatically.
+
+## Manual Setup (all platforms)
 
 > Complete these steps first, regardless of which client you use (Claude Code, Claude Desktop, or Gemini CLI).
 
