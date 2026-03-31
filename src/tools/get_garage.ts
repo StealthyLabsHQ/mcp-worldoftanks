@@ -6,7 +6,7 @@ import { getMasteryLabel } from '../utils/mastery.js';
 import { formatNumber } from '../utils/format.js';
 import { logger } from '../utils/logger.js';
 
-const TIER_ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+const TIER_ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI'];
 
 const NATION_FLAGS: Record<string, string> = {
   germany: '\ud83c\udde9\ud83c\uddea', ussr: '\ud83c\uddf7\ud83c\uddfa', usa: '\ud83c\uddfa\ud83c\uddf8',
@@ -25,7 +25,7 @@ export function registerGarage(server: McpServer): void {
     'wot_get_garage',
     'List vehicles with name, nation, tier, type, mastery and battles.',
     {
-      min_tier: z.number().min(1).max(10).optional().describe('Minimum tier (1-10)'),
+      min_tier: z.number().min(1).max(11).optional().describe('Minimum tier (1-11)'),
       sort_by: z.enum(['tier', 'battles', 'mastery']).optional().describe('Sort criteria'),
     },
     async ({ min_tier, sort_by }) => {

@@ -17,6 +17,10 @@ export interface TankStatsAll {
   spotted: number;
   xp: number;
   max_xp: number;
+  hits: number;
+  shots: number;
+  survived_battles: number;
+  dropped_capture_points: number;
 }
 
 export interface TankStats {

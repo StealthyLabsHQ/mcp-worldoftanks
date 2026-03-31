@@ -19,6 +19,10 @@ export interface AccountStatistics {
   frags: number;
   spotted: number;
   xp: number;
+  hits: number;
+  shots: number;
+  survived_battles: number;
+  dropped_capture_points: number;
 }
 
 export interface AccountInfo {
